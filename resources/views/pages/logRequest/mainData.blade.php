@@ -10,8 +10,7 @@
     <div class="content sm-gutter">
         <div class="container-fluid">
             <ul class="breadcrumb p-l-0">
-                <li class="breadcrumb-item"><a href="#">Master Vehicle</a></li>
-                <li class="breadcrumb-item active">Motorcycle</li>
+                <li class="breadcrumb-item"><a href="#">Log Reques</a></li>
             </ul>
         </div>
 
@@ -20,7 +19,7 @@
             <div class="row">
                 <div class="col-lg-4 col-xs-8 col-sm-8 m-b-10">
                     <div class="input-group date col-md-8 col-xs-12 col-sm-8 p-l-0 datepickerSearch">
-                        <input type="text" name="searchDate" readonly value="{{ date('d-m-Y') }}" class="form-control"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+                        <input type="text" name="searchDate" readonly value="{{ date('d-m-Y') }}" class="form-control"><span class="input-group-addon bg-primary text-white"><i class="fa fa-calendar"></i></span>
                     </div>
                 </div>
 

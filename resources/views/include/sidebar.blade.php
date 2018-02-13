@@ -109,13 +109,26 @@
                     </ul>
                 </li>
 
-
                 <!-- Full Calendar -->
                 <li>
                     <a href="{{ url('/logRequest') }}">
                         <span class="title">Log Reques</span>
                     </a>
                     <span class="icon-thumbnail"><i class="pg-boxnet"></i></span>
+                </li>
+
+                <!-- EMPLOYEE -->
+                <li>
+                    <a href="javascript:;"><span class="title">Employee</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <span class="icon-thumbnail"><i class="fa fa-user"></i></span>
+                    <ul class="sub-menu">
+                        <li class="">
+                            <a href="{{ url('/employee/medicalRecords') }}">Medical Records</a>
+                            <span class="icon-thumbnail">MR</span>
+                        </li>
+                    </ul>
                 </li>
 
 

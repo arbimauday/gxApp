@@ -161,3 +161,9 @@ Route::get('/logRequest', function(){ // data view log request
 Route::get('/logRequest/input','LogRequest\Maindata@input');
 
 Route::get('/api/logRequest/viewdata','LogRequest\Maindata@getData');
+
+
+/********* EMPLOYEE MEDICAL RECORDS ********/
+Route::get('/employee/medicalRecords',function(){
+    return view('pages/employee/medicalRecords');
+});
