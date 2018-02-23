@@ -27,7 +27,7 @@ Route::get('/', function () {
 Auth::routes(); // login
 Route::get('/api/listUser', 'User_data@listUser'); // list user
 
-/********** DATA FULL CALENDAR ********/
+/********** START DATA FULL CALENDAR ********/
 Route::get('/calendar/full', 'Full_calendar\Data@index'); // view page
 Route::get('/api/calendar/full/getDate/{id_user}', 'Full_calendar\Data@api_getDate'); // api data
 Route::get('/api/calendar/full/getDate/holiday', 'Full_calendar\Data@api_getDate'); // api data
@@ -67,29 +67,27 @@ Route::get('/api/vehicleImg/getData','MasterVehicle\VehicleImageController@getDa
 Route::post('/api/vehicleImg/add', 'MasterVehicle\VehicleImageController@add');
 /********* END MASTER VEHICLE ********/
 
-/********* WEB CAM EXAMPLE ********/
+/********* START WEB CAM EXAMPLE ********/
 Route::get('/webCamUp', function(){
    return view('pages/webCam/index');
 });
 Route::get('/qrcodeReader', function (){
     return view('pages.barCode.qrcodeReader.index');
 });
+/********* END WEB CAM EXAMPLE ********/
 
-/********* MASTER USING WEB CAM ********/
+/********* START MASTER USING WEB CAM ********/
 Route::get('/masterWebcam/barcode', function (){ // Barcode
     return view('pages/masterWebcam/barcode');
 });
 Route::get('/masterWebcam/scanFace', function(){ // Scan Face
     return view('pages/masterWebcam/scanFace');
 });
-
 Route::post('/api/masterWebcam/addData', 'Webcam\Main@apiAddData');
-
 Route::get('/api/masterWebcam/getData', 'Webcam\Main@apiGetData');
+/********* END MASTER USING WEB CAM ********/
 
-
-
-/********* RUNNING QUEUES JOBS ********/
+/********* START RUNNING QUEUES JOBS ********/
 Route::get('/jobs/queues/sendEmail', function (){
     $job = (new SendEmailJob())->onQueue('sendEmail')->delay(Carbon::now()->addSeconds(10));
     dispatch($job);
@@ -110,7 +108,6 @@ Route::get('/jobs/queues/vehicle', function (){
     dispatch($job);
     return 'Checking Job Vehicle';
 });
-
 Route::get('/jobs/queues/retry',function(){
     $id = $_GET['id'];
     $times = Carbon::now()->addSeconds(10);
@@ -143,27 +140,36 @@ Route::get('/failedJobs/queues/retry', function (){
         echo 'Retry All';
     }
 });
+/********* END RUNNING QUEUES JOBS ********/
 
 
-
-/********* MONITORING ********/
+/********* START MONITORING ********/
+    /********* START CHECKING JOBS ********/
 Route::get('/monitoring/checkingJobs', function (){
     return view('pages/monitoring/checkingJobs');
 });
 Route::get('/api/monitoring/checkingJobs/jobs/getData', 'Monitoring\CheckingErrorJob@getDataJobs');
 Route::get('/api/monitoring/checkingJobs/failedJobs/getData', 'Monitoring\CheckingErrorJob@getDataFailedJobs');
+    /********* END CHECKING JOBS ********/
+
+    /********* START BACKUP PACK ********/
+include('backpack/backupmanager.php');
+    /********* END BACKUP PACK ********/
+/********* END MONITORING ********/
 
 
-/********* LOG REQUEST ********/
+/********* START LOG REQUEST ********/
 Route::get('/logRequest', function(){ // data view log request
     return view('pages/logRequest/mainData');
 });
 Route::get('/logRequest/input','LogRequest\Maindata@input');
 
 Route::get('/api/logRequest/viewdata','LogRequest\Maindata@getData');
+/********* END LOG REQUEST ********/
 
 
-/********* EMPLOYEE MEDICAL RECORDS ********/
+/********* START EMPLOYEE MEDICAL RECORDS ********/
 Route::get('/employee/medicalRecords',function(){
     return view('pages/employee/medicalRecords');
 });
+/********* END EMPLOYEE MEDICAL RECORDS ********/

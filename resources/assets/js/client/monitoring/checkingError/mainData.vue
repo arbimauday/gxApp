@@ -11,7 +11,6 @@
                     <div class="col-md-12">
                         <div class="card-title">Queue table of jobs</div>
                         <button class="btn btn-danger btn-cons m-l-5" @click="deleteAll()"><i class="fa fa-trash-o"></i> Delete All</button>
-                        <!--<button class="btn btn-complete btn-cons"><i class="fa fa-refresh"></i> Tried All</button>-->
                         <div class="pull-right">
                             <div class="col-xs-12">
                                 <input type="text" id="search-table" class="form-control pull-right" placeholder="Search">

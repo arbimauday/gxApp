@@ -30,21 +30,21 @@
 
                                     <div class="col-md-4">
                                         <div class="">
-                                            <p>Longterm medication?</p>
+                                            <p>Longterm medication</p>
                                             <div class="radio radio-success">
-                                                <input type="radio" value="true" name="treatmentLong" id="treatment-on">
+                                                <input type="radio" value="1" name="treatmentLong" id="treatment-on">
                                                 <label for="treatment-on">Yes</label>
-                                                <input type="radio" value="false" name="treatmentLong" checked="checked" id="treatment-off">
+                                                <input type="radio" value="0" name="treatmentLong" checked="checked" id="treatment-off">
                                                 <label for="treatment-off">No</label>
                                             </div>
                                         </div>
-                                        <div class="row  padding-5 form-group form-group-attached disabled" id="treatmentQuestion" style="display: none;">
+                                        <div class="row  padding-5 form-group form-group-attached" id="treatmentQuestion" style="display: none;">
                                             <div class="form-group form-group-default required">
                                                 <label class="label-sm">Type of disease</label>
                                                 <input type="text"  class="form-control" placeholder="Type of disease" required>
                                             </div>
                                             <div class="form-group form-group-default required">
-                                                <label class="label-sm">Since When?</label>
+                                                <label class="label-sm">Since When</label>
                                                 <input type="text"  readonly class="form-control datepickerGet" placeholder="dd/mm/yyyy" required>
                                             </div>
                                             <div class="form-group form-group-default required">
@@ -56,11 +56,11 @@
 
                                     <div class="col-md-4">
                                         <div class="">
-                                            <p>You are a Smoker ?</p>
+                                            <p>You are a Smoker </p>
                                             <div class="radio radio-success">
-                                                <input type="radio" value="true" name="smoker" id="smoker-on">
+                                                <input type="radio" value="1" name="smoker" id="smoker-on">
                                                 <label for="smoker-on">Yes</label>
-                                                <input type="radio" value="false" name="smoker" checked="checked" id="smoker-off">
+                                                <input type="radio" value="0" name="smoker" checked="checked" id="smoker-off">
                                                 <label for="smoker-off">No</label>
                                             </div>
                                         </div>
@@ -69,7 +69,7 @@
                                                 <div class="col-md-5">
                                                     <div class="form-group form-group-default required">
                                                         <label class="label-sm">Amount</label>
-                                                        <input type="number" value="0" class="form-control" placeholder="Amount" required>
+                                                        <input type="number" class="form-control" placeholder="Amount" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-7">
@@ -86,7 +86,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group form-group-default required">
-                                                        <label class="label-sm">Since When?</label>
+                                                        <label class="label-sm">Since When</label>
                                                         <input type="text"  readonly class="form-control datepickerGet" placeholder="dd/mm/yyyy" required>
                                                     </div>
                                                 </div>
@@ -96,11 +96,11 @@
 
                                     <div class="col-md-4">
                                         <div class="">
-                                            <p>You are a Drinker ?</p>
+                                            <p>You are a Drinker </p>
                                             <div class="radio radio-success">
-                                                <input type="radio" value="true" name="drinker" id="drinker-on">
+                                                <input type="radio" value="1" name="drinker" id="drinker-on">
                                                 <label for="drinker-on">Yes</label>
-                                                <input type="radio" value="false" name="drinker" checked="checked" id="drinker-off">
+                                                <input type="radio" value="0" name="drinker" checked="checked" id="drinker-off">
                                                 <label for="drinker-off">No</label>
                                             </div>
                                         </div>
@@ -109,7 +109,7 @@
                                                 <div class="col-md-5">
                                                     <div class="form-group form-group-default required">
                                                         <label class="label-sm">Amount</label>
-                                                        <input type="number" value="0" class="form-control" placeholder="Amount" required>
+                                                        <input type="number" class="form-control" placeholder="Amount" required>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-7">
@@ -126,7 +126,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group form-group-default required">
-                                                        <label class="label-sm">Since When?</label>
+                                                        <label class="label-sm">Since When</label>
                                                         <input type="text"  readonly class="form-control datepickerGet" placeholder="dd/mm/yyyy" required>
                                                     </div>
                                                 </div>
@@ -134,7 +134,7 @@
                                             <div class="row">
                                                 <div class="col-md-12">
                                                     <div class="form-group form-group-default required">
-                                                        <label class="label-sm">Type of Drinker?</label>
+                                                        <label class="label-sm">Type of Drinker</label>
                                                         <input type="text"  class="form-control" placeholder="Type of drinker" required>
                                                     </div>
                                                 </div>
@@ -150,11 +150,11 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="">
-                                                <p>Had an Accident?</p>
+                                                <p>Had an Accident</p>
                                                 <div class="radio radio-success">
-                                                    <input type="radio" value="true" name="accident" id="accident-on">
+                                                    <input type="radio" value="1" name="accident" id="accident-on">
                                                     <label for="accident-on">Yes</label>
-                                                    <input type="radio" value="false" name="accident" checked="checked" id="accident-off">
+                                                    <input type="radio" value="0" name="accident" checked="checked" id="accident-off">
                                                     <label for="accident-off">No</label>
                                                 </div>
                                             </div>
@@ -163,7 +163,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Since When?</label>
+                                                            <label class="label-sm">Since When</label>
                                                             <input type="text"  readonly class="form-control datepickerGet" placeholder="dd/mm/yyyy" required>
                                                         </div>
                                                     </div>
@@ -171,7 +171,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Type of Accident?</label>
+                                                            <label class="label-sm">Type of Accident</label>
                                                             <input type="text"  class="form-control" placeholder="Type of Accident" required>
                                                         </div>
                                                     </div>
@@ -181,11 +181,11 @@
 
                                         <div class="col-md-4">
                                             <div class="">
-                                                <p>Experienced Operation?</p>
+                                                <p>Experienced Operation</p>
                                                 <div class="radio radio-success">
-                                                    <input type="radio" value="true" name="operation" id="operation-on">
+                                                    <input type="radio" value="1" name="operation" id="operation-on">
                                                     <label for="operation-on">Yes</label>
-                                                    <input type="radio" value="false" name="operation" checked="checked" id="operation-off">
+                                                    <input type="radio" value="0" name="operation" checked="checked" id="operation-off">
                                                     <label for="operation-off">No</label>
                                                 </div>
                                             </div>
@@ -194,7 +194,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Since When?</label>
+                                                            <label class="label-sm">Since When</label>
                                                             <input type="text"  readonly class="form-control datepickerGet" placeholder="dd/mm/yyyy" required>
                                                         </div>
                                                     </div>
@@ -202,7 +202,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Type of Operation?</label>
+                                                            <label class="label-sm">Type of Operation</label>
                                                             <input type="text"  class="form-control" placeholder="Type of Operation" required>
                                                         </div>
                                                     </div>
@@ -212,11 +212,11 @@
 
                                         <div class="col-md-4">
                                             <div class="">
-                                                <p>Hospitalized?</p>
+                                                <p>Hospitalized</p>
                                                 <div class="radio radio-success">
-                                                    <input type="radio" value="true" name="hospitalized" id="hospitalized-on">
+                                                    <input type="radio" value="1" name="hospitalized" id="hospitalized-on">
                                                     <label for="hospitalized-on">Yes</label>
-                                                    <input type="radio" value="false" name="hospitalized" checked="checked" id="hospitalized-off">
+                                                    <input type="radio" value="0" name="hospitalized" checked="checked" id="hospitalized-off">
                                                     <label for="hospitalized-off">No</label>
                                                 </div>
                                             </div>
@@ -225,7 +225,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Since When?</label>
+                                                            <label class="label-sm">Since When</label>
                                                             <input type="text"  readonly class="form-control datepickerGet" placeholder="dd/mm/yyyy" required>
                                                         </div>
                                                     </div>
@@ -233,8 +233,8 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Type of Operation?</label>
-                                                            <input type="text"  class="form-control" placeholder="Type of  Operation?" required>
+                                                            <label class="label-sm">Type of Operation</label>
+                                                            <input type="text"  class="form-control" placeholder="Type of  Operation" required>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -247,13 +247,13 @@
                                 <div class="col-md-12 col-sm-12 col-xs-12">
                                     <div class="row">
                                         <div class="col-md-4">
-                                            <p>Special History?</p>
+                                            <p>Special History</p>
 
                                             <div class="form-group-attached padding-5" id="accidentQuestion">
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Dietary habit?</label>
+                                                            <label class="label-sm">Dietary habit</label>
                                                             <input type="text" class="form-control" placeholder="Dietary habit" required>
                                                         </div>
                                                     </div>
@@ -261,7 +261,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Type of sport?</label>
+                                                            <label class="label-sm">Type of sport</label>
                                                             <input type="text"  class="form-control" placeholder="Type of sport" required>
                                                         </div>
                                                     </div>
@@ -269,7 +269,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Regular exercise habits?</label>
+                                                            <label class="label-sm">Regular exercise habits</label>
                                                             <input type="text" class="form-control" placeholder="Regular exercise habits" required>
                                                         </div>
                                                     </div>
@@ -277,7 +277,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Frequency of sports?</label>
+                                                            <label class="label-sm">Frequency of sports</label>
                                                             <input type="text" class="form-control" placeholder="Regular exercise habits" required>
                                                         </div>
                                                     </div>
@@ -286,7 +286,7 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Notes etc?</label>
+                                                            <label class="label-sm">Notes etc</label>
                                                             <textarea rows="15" placeholder="Notes etc" class="form-control" style="width: 100%;"></textarea>
                                                         </div>
                                                     </div>
@@ -302,8 +302,8 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Height body?</label>
-                                                            <input type="text" class="form-control" placeholder="Height body" required>
+                                                            <label class="label-sm">Body Height</label>
+                                                            <input type="text" class="form-control" placeholder="Body Height" required>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -311,11 +311,11 @@
 
                                             <hr/>
                                             <div class="">
-                                                <p>Do you use glasses?</p>
+                                                <p>Do you use glasses</p>
                                                 <div class="radio radio-success">
-                                                    <input type="radio" value="true" name="glasses" id="glasses-on">
+                                                    <input type="radio" value="1" name="glasses" id="glasses-on">
                                                     <label for="glasses-on">Yes</label>
-                                                    <input type="radio" value="false" name="glasses" checked="checked" id="glasses-off">
+                                                    <input type="radio" value="0" name="glasses" checked="checked" id="glasses-off">
                                                     <label for="glasses-off">No</label>
                                                 </div>
                                             </div>
@@ -324,8 +324,8 @@
                                                 <div class="row">
                                                     <div class="col-md-12">
                                                         <div class="form-group form-group-default required">
-                                                            <label class="label-sm">Size of glasses?</label>
-                                                            <input type="text" class="form-control" required>
+                                                            <label class="label-sm">Size of glasses</label>
+                                                            <input type="text" class="form-control" placeholder="Size of glasses" required>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -355,69 +355,63 @@
 
             $('[name="treatmentLong"]').click(function () {
                 var treatmentLong = $(this).val();
-                if (treatmentLong == 'true') {
-                    var outDis = '';
-                }else{
-                    var outDis = 'none';
+                var outDis = '';
+                if (treatmentLong == false) {
+                    outDis = 'none';
                 }
                 $('#treatmentQuestion').css({'display':outDis});
             });
 
             $('[name="smoker"]').click(function () {
                 var smokerVal = $(this).val();
-                if(smokerVal == 'true'){
-                    var outDisSmoker = '';
-                }else{
-                    var outDisSmoker = 'none';
+                var outDisSmoker = '';
+                if(smokerVal == false){
+                    outDisSmoker = 'none';
                 }
                 $('#smokerQuestion').css({'display':outDisSmoker});
             });
 
             $('[name="drinker"]').click(function () {
                var drinkerVal = $(this).val();
-               if(drinkerVal == 'true'){
-                   var outDisDrinker = '';
-               }else{
-                   var outDisDrinker = 'none';
+               var outDisDrinker = '';
+               if(drinkerVal == false){
+                   outDisDrinker = 'none';
                }
                $('#drinkerQuestion').css({'display':outDisDrinker});
             });
 
             $('[name="accident"]').click(function () {
                var accidentVal = $(this).val();
-               if(accidentVal == 'true'){
-                   var outDisAccident = '';
-               }else{
-                   var outDisAccident = 'none';
+               var outDisAccident = '';
+               if(accidentVal == false){
+                   outDisAccident = 'none';
                }
                $('#accidentQuestion').css({'display':outDisAccident});
             });
 
             $('[name="operation"]').click(function () {
                var operationVal = $(this).val();
-               if(operationVal == 'true'){
-                   var outDisOperation = '';
-               }else{
-                   var outDisOperation = 'none';
+                var outDisOperation = '';
+               if(operationVal == false){
+                   outDisOperation = 'none';
                }
                $('#operationQuestion').css({'display':outDisOperation});
             });
 
             $('[name="hospitalized"]').click(function () {
                var hospitalizedVal = $(this).val();
-               if(hospitalizedVal == 'true'){
-                   var outDisHospitaled = '';
-               }else{
-                   var outDisHospitaled = 'none';
+                var outDisHospitaled = '';
+               if(hospitalizedVal == false){
+                   outDisHospitaled = 'none';
                }
                $('#hospitalizedQuestion').css({'display':outDisHospitaled});
             });
 
             $('[name="glasses"]').click(function () {
-                if($(this).val() == 'true'){
-                    var outDisGlasses = '';
-                }else{
-                    var outDisGlasses = 'none';
+                var glassesVal = $(this).val();
+                var outDisGlasses = '';
+                if(glassesVal == false){
+                    outDisGlasses = 'none';
                 }
                 $('#glassesQuestion').css({'display':outDisGlasses});
             });

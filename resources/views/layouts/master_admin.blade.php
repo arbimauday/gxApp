@@ -1224,7 +1224,6 @@
 <!-- end picker date, ranges, and time -->
 
 <!-- BEGIN PAGE LEVEL JS -->
-<script src="{{ asset('temp/assets/js/form_elements.js') }}" type="text/javascript"></script>
 <script src="{{ asset('temp/assets/js/scripts.js') }}" type="text/javascript"></script>
 <!-- END PAGE LEVEL JS -->
 

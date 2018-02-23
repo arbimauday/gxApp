@@ -106,6 +106,10 @@
                             <a href="{{ url('/monitoring/checkingJobs') }}">Checking Error</a>
                             <span class="icon-thumbnail">CE</span>
                         </li>
+                        <li>
+                            <a href="{{ url(config('backpack.base.route_prefix', 'admin').'/backup') }}">Backup Pack</a>
+                            <span class="icon-thumbnail">BP</span>
+                        </li>
                     </ul>
                 </li>
 
@@ -130,6 +134,12 @@
                         </li>
                     </ul>
                 </li>
+
+                {{--<li>--}}
+                    {{--<a href="{{ url(config('backpack.base.route_prefix', 'admin').'/backup') }} " class="title">--}}
+                        {{--<i class="fa fa-hdd-o"></i> <span>Backups</span>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
 
 
                 <!-- Data list dafault -->
