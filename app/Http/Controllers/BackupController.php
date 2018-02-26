@@ -12,8 +12,8 @@ use Log;
 use Storage;
 
 
-class BackupController extends Controller
-{
+class BackupController extends Controller{
+
     public function index()
     {
         if (!count(config('backup.backup.destination.disks'))) {
@@ -51,12 +51,11 @@ class BackupController extends Controller
         return view('pages/monitoring/backup', $this->data);
     }
 
-    public function create()
-    {
+    public function create(){
         try {
             ini_set('max_execution_time', 300);
             // start the backup process
-            Artisan::call('backup:run');
+            Artisan::call('backup:run',['--only-db'=>'']);
             $output = Artisan::output();
 
             // log the results

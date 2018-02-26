@@ -36920,7 +36920,7 @@ if (inBrowser) {
   } catch (e) {}
 }
 
-// this needs to be lazy-evaled because vue may be required before
+// this needs to be lazy-evaled because scrolling may be required before
 // vue-server-renderer can set VUE_ENV
 var _isServer;
 var isServerRendering = function () {
@@ -40438,7 +40438,7 @@ var componentVNodeHooks = {
     }
     if (vnode.data.keepAlive) {
       if (context._isMounted) {
-        // vue-router#1212
+        // scrolling-router#1212
         // During updates, a kept-alive component's child components may
         // change, so directly walking the tree here may call activated hooks
         // on incorrect children. Instead we push them into a queue which will
@@ -42282,7 +42282,7 @@ function createPatchFunction (backend) {
   function assertNodeMatch (node, vnode) {
     if (isDef(vnode.tag)) {
       return (
-        vnode.tag.indexOf('vue-component') === 0 ||
+        vnode.tag.indexOf('scrolling-component') === 0 ||
         vnode.tag.toLowerCase() === (node.tagName && node.tagName.toLowerCase())
       )
     } else {
@@ -47109,11 +47109,11 @@ if (token) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("./node_modules/scrolling/dist/scrolling.common.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__router_index__ = __webpack_require__("./resources/assets/js/client/monitoring/mysqlDump/router/index.js");
 __webpack_require__("./resources/assets/js/bootstrap.js");
-window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
+window.Vue = __webpack_require__("./node_modules/scrolling/dist/scrolling.common.js");
 
 
 
@@ -47130,9 +47130,9 @@ var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a({
 var disposed = false
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/components/addNew.vue")
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/scrolling-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/components/addNew.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7a7e0248\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/components/addNew.vue")
+var __vue_template__ = __webpack_require__("./node_modules/scrolling-loader/lib/template-compiler/index.js?{\"id\":\"data-v-7a7e0248\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/scrolling-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/components/addNew.vue")
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -47177,10 +47177,10 @@ module.exports = Component.exports
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__("./node_modules/scrolling/dist/scrolling.common.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__("./node_modules/vue-router/dist/vue-router.esm.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_index_vue__ = __webpack_require__("./resources/assets/js/client/monitoring/mysqlDump/view/index.vue");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_vue_router__ = __webpack_require__("./node_modules/scrolling-router/dist/scrolling-router.esm.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_index_vue__ = __webpack_require__("./resources/assets/js/client/monitoring/mysqlDump/view/Index.vue");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__view_index_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__view_index_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_addNew_vue__ = __webpack_require__("./resources/assets/js/client/monitoring/mysqlDump/components/addNew.vue");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_addNew_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_addNew_vue__);
@@ -47205,9 +47205,9 @@ var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
 var disposed = false
 var normalizeComponent = __webpack_require__("./node_modules/vue-loader/lib/component-normalizer.js")
 /* script */
-var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/vue-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/view/index.vue")
+var __vue_script__ = __webpack_require__("./node_modules/babel-loader/lib/index.js?{\"cacheDirectory\":true,\"presets\":[[\"env\",{\"modules\":false,\"targets\":{\"browsers\":[\"> 2%\"],\"uglify\":true}}]],\"plugins\":[\"transform-object-rest-spread\"]}!./node_modules/scrolling-loader/lib/selector.js?type=script&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/view/Index.vue")
 /* template */
-var __vue_template__ = __webpack_require__("./node_modules/vue-loader/lib/template-compiler/index.js?{\"id\":\"data-v-79e3f314\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/vue-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/view/index.vue")
+var __vue_template__ = __webpack_require__("./node_modules/scrolling-loader/lib/template-compiler/index.js?{\"id\":\"data-v-79e3f314\",\"hasScoped\":false,\"buble\":{\"transforms\":{}}}!./node_modules/scrolling-loader/lib/selector.js?type=template&index=0&bustCache!./resources/assets/js/client/monitoring/mysqlDump/view/Index.vue")
 /* template functional */
   var __vue_template_functional__ = false
 /* styles */
@@ -47224,7 +47224,7 @@ var Component = normalizeComponent(
   __vue_scopeId__,
   __vue_module_identifier__
 )
-Component.options.__file = "resources\\assets\\js\\client\\monitoring\\mysqlDump\\view\\index.vue"
+Component.options.__file = "resources\\assets\\js\\client\\monitoring\\mysqlDump\\view\\Index.vue"
 if (Component.esModule && Object.keys(Component.esModule).some(function (key) {  return key !== "default" && key.substr(0, 2) !== "__"})) {  console.error("named exports are not supported in *.vue files.")}
 
 /* hot reload */

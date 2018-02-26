@@ -2,7 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
-//import index from '../views/Admin.vue'
+//import index from '../views/Admin.scrolling'
 import index from '../views/User.vue'
 import form from '../components/Formreport.vue'
 

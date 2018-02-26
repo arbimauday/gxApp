@@ -46,6 +46,7 @@
                     </a>
                     <span class="icon-thumbnail"><i class="pg-calender"></i></span>
                 </li>
+
                 <!-- Report Software Error -->
                 <li  class="">
                     <a href="javascript:;"><span class="title">Report Error</span>
@@ -62,6 +63,7 @@
                         </li>
                     </ul>
                 </li>
+
                 <!-- MASTER VEHICLE -->
                 <li class="">
                     <a href="javascript:;"><span class="title">Master Vehicle</span>
@@ -78,6 +80,7 @@
                         </li>
                     </ul>
                 </li>
+
                 <!-- WEB CAM, QRCODE -->
                 <li>
                     <a href="javascript:;"><span class="title">Master Web Cam</span>
@@ -95,7 +98,7 @@
                     </ul>
                 </li>
 
-                <!-- CHECKING ERROR -->
+                <!-- MONITORING -->
                 <li>
                     <a href="javascript:;"><span class="title">Monitoring</span>
                         <span class="arrow"></span>
@@ -113,7 +116,7 @@
                     </ul>
                 </li>
 
-                <!-- Full Calendar -->
+                <!-- LOG REQUES -->
                 <li>
                     <a href="{{ url('/logRequest') }}">
                         <span class="title">Log Reques</span>
@@ -131,6 +134,20 @@
                         <li class="">
                             <a href="{{ url('/employee/medicalRecords') }}">Medical Records</a>
                             <span class="icon-thumbnail">MR</span>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- Test -->
+                <li>
+                    <a href="javascript:;"><span class="title">Test</span>
+                        <span class="arrow"></span>
+                    </a>
+                    <span class="icon-thumbnail"><i class="fs-14 fa fa-magic"></i></span>
+                    <ul class="sub-menu">
+                        <li class="">
+                            <a href="{{ url('/test/scrolling')}}">Scrolling Vue</a>
+                            <span class="icon-thumbnail">SV</span>
                         </li>
                     </ul>
                 </li>

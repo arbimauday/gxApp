@@ -27,6 +27,7 @@
     "vlightbox": "^2.0.2",
     "vue-image-lightbox": "^5.5.3",
     "vue-images": "^1.1.0",
+    "vue-infinite-loading": "^2.2.3",
     "vue-lazyload": "^1.1.4",
     "vue-qrcode-reader": "^0.6.7",
     "vue-touch": "^2.0.0-beta.4",

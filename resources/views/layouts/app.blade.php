@@ -11,7 +11,7 @@
     <title>{{ config('app.vue', 'Laravel') }}</title>
 
     <!-- Styles -->
-    <link href="{{ asset('app.vue') }}" rel="stylesheet">
+    <link href="{{ asset('scrolling') }}" rel="stylesheet">
 
 
 </head>

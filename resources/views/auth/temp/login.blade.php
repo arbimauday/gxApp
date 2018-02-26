@@ -6,7 +6,7 @@
     <title>Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="{{ asset('app.vue' )}}">
+    <link rel="stylesheet" href="{{ asset('scrolling' )}}">
     <link rel="stylesheet" href="{{ asset('temp/assets/plugins/data_style.css') }}">
     <link rel="stylesheet" href="{{ asset('temp/pages/css/pages_icons.css') }}">
 

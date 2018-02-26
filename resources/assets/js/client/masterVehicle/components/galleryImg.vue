@@ -103,7 +103,7 @@
                     var reader = new FileReader();
                     // Define a callback function to run, when FileReader finishes its job
                     reader.onload = (e) => {
-                        // Note: arrow function used here, so that "this.imageData" refers to the imageData of Vue component
+                        // Note: arrow function used here, so that "this.imageData" refers to the imageData of scrolling component
                         // Read image as base64 and set to imageData
                         this.imageData = e.target.result;
                     }

@@ -2,8 +2,8 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import store from './store'; // Vuex
-import Vue from 'vue'; // vue js
-import VueRouter from 'vue-router'; // vue router
+import Vue from 'vue'; // scrolling js
+import VueRouter from 'vue-router'; // scrolling router
 Vue.use(VueRouter);
 
 
@@ -44,8 +44,8 @@ Vue.use(VueRouter);
 //
 // /*-------------------------------------------------------------------*/
 // // PASSING RUNNING METHOD ANOTHER FILE
-// let EventBus = new Vue();
-// Object.defineProperties(Vue.prototype, {
+// let EventBus = new scrolling();
+// Object.defineProperties(scrolling.prototype, {
 //     $bus: {
 //         get:function () {
 //             return EventBus;
@@ -54,7 +54,7 @@ Vue.use(VueRouter);
 // });
 // /*-------------------------------------------------------------------*/
 //
-// const app = new Vue({
+// const app = new scrolling({
 //     el: '#app',
 //     //router,
 //     store,

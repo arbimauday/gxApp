@@ -7,7 +7,7 @@
 
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel="stylesheet" href="{{ asset('app.vue') }}">
+    <link rel="stylesheet" href="{{ asset('scrolling') }}">
 </head>
 <body>
 

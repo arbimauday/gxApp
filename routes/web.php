@@ -173,3 +173,8 @@ Route::get('/employee/medicalRecords',function(){
     return view('pages/employee/medicalRecords');
 });
 /********* END EMPLOYEE MEDICAL RECORDS ********/
+
+
+/********* START TEST ********/
+include('devRoutes/test/vue/scollingLoading.php');
+/********* END TEST ********/

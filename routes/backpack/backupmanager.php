@@ -12,7 +12,6 @@
 
 Route::group([
     'prefix'     => config('backpack.base.route_prefix', 'admin'),
-
 ], function () {
     Route::get('backup', 'BackupController@index');
     Route::get('backup/create', 'BackupController@create');

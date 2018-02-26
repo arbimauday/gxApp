@@ -47516,8 +47516,8 @@ __webpack_require__("./resources/assets/js/bootstrap.js");
 window.Vue = __webpack_require__("./node_modules/vue/dist/vue.common.js");
 
  // Vuex
- // vue js
- // vue router
+ // scrolling js
+ // scrolling router
 __WEBPACK_IMPORTED_MODULE_1_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vue_router__["a" /* default */]);
 
 /*-------------------------------------------------------------------*/
@@ -47557,8 +47557,8 @@ __WEBPACK_IMPORTED_MODULE_1_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vue_
 //
 // /*-------------------------------------------------------------------*/
 // // PASSING RUNNING METHOD ANOTHER FILE
-// let EventBus = new Vue();
-// Object.defineProperties(Vue.prototype, {
+// let EventBus = new scrolling();
+// Object.defineProperties(scrolling.prototype, {
 //     $bus: {
 //         get:function () {
 //             return EventBus;
@@ -47567,7 +47567,7 @@ __WEBPACK_IMPORTED_MODULE_1_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_2_vue_
 // });
 // /*-------------------------------------------------------------------*/
 //
-// const app = new Vue({
+// const app = new scrolling({
 //     el: '#app',
 //     //router,
 //     store,
