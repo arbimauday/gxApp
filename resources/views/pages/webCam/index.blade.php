@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Vue Webcam Example</title>
-    <link rel="stylesheet" href="{{ asset('webCam/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('js/clientMain/webCam/style.css') }}" />
 </head>
 <body>
 <div id="app"></div>

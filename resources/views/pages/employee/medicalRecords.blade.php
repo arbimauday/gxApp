@@ -3,7 +3,7 @@
 @section('title','Employee - Medical Records')
 
 @push('vueApp')
-<script src="{{ asset('js/employee/medicalRecords.js') }}"></script>
+<script src="{{ asset('js/clientMain/employee/medicalRecords.js') }}"></script>
 @endpush
 
 @section('content')

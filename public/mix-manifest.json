@@ -1,12 +1,13 @@
 {
-    "/barCodeWebCam/qrcodeReader.js": "/barCodeWebCam/qrcodeReader.js?id=a7b5dfe1c2ec3cf3c6e4",
-    "/js/masterVehicle/vehicle.js": "/js/masterVehicle/vehicle.js?id=8b4814f66894bd95aff2",
+    "/js/clientMain/barCodeWebCam/qrcodeReader.js": "/js/clientMain/barCodeWebCam/qrcodeReader.js?id=a7b5dfe1c2ec3cf3c6e4",
+    "/js/clientMain/masterVehicle/vehicle.js": "/js/clientMain/masterVehicle/vehicle.js?id=8b4814f66894bd95aff2",
     "/js/clientMain/masterWebcam/barcode.js": "/js/clientMain/masterWebcam/barcode.js?id=8b9d0a20e89b4631509a",
     "/js/clientMain/reportData.js": "/js/clientMain/reportData.js?id=460f7e94089c38faa4e5",
-    "/js/monitoring/checkingError.js": "/js/monitoring/checkingError.js?id=58f5805b1b170f1420fd",
-    "/webCam/app.js": "/webCam/app.js?id=78f644f190867f83104e",
-    "/js/test/vue/scrolling-loading.js": "/js/test/vue/scrolling-loading.js?id=ebeaf89a63af9cbed2f8",
-    "/js/employee/medicalRecords.js": "/js/employee/medicalRecords.js?id=424d8b4890d3b6958c29",
+    "/js/clientMain/monitoring/checkingError.js": "/js/clientMain/monitoring/checkingError.js?id=58f5805b1b170f1420fd",
+    "/js/clientMain/webCam/app.js": "/js/clientMain/webCam/app.js?id=78f644f190867f83104e",
+    "/js/clientMain/test/vue/scrolling-loading.js": "/js/clientMain/test/vue/scrolling-loading.js?id=ebeaf89a63af9cbed2f8",
+    "/js/clientMain/email/email.js": "/js/clientMain/email/email.js?id=c7ed5929ee68fd78cdc9",
+    "/js/clientMain/employee/medicalRecords.js": "/js/clientMain/employee/medicalRecords.js?id=424d8b4890d3b6958c29",
     "/js/app.js": "/js/app.js?id=dd452663761c31c27af7",
     "/css/app.css": "/css/app.css?id=9efb30db5cf6bdbea0b7"
 }

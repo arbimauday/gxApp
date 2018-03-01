@@ -3,7 +3,7 @@
 @section('title','Monitoring - Checking Error')
 
 @push('vueApp')
-    <script src="{{ asset('js/monitoring/checkingError.js') }}"></script>
+    <script src="{{ asset('js/clientMain/monitoring/checkingError.js') }}"></script>
 @endpush
 
 @section('content')

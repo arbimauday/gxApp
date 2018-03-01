@@ -152,6 +152,15 @@
                     </ul>
                 </li>
 
+                <!-- Email -->
+                <li class="">
+                    <a href="{{url('/email')}}" class="detailed">
+                        <span class="title">Email</span>
+                        <span class="details">234 New Emails</span>
+                    </a>
+                    <span class="icon-thumbnail"><i class="pg-mail"></i></span>
+                </li>
+
                 {{--<li>--}}
                     {{--<a href="{{ url(config('backpack.base.route_prefix', 'admin').'/backup') }} " class="title">--}}
                         {{--<i class="fa fa-hdd-o"></i> <span>Backups</span>--}}

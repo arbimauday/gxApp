@@ -181,7 +181,7 @@ return [
          * add class for access back pack
          */
         Spatie\Backup\BackupServiceProvider::class,
-        Backpack\BackupManager\BackupManagerServiceProvider::class,
+        //Backpack\BackupManager\BackupManagerServiceProvider::class,
 
 
         /* Configuration united from indonesia */

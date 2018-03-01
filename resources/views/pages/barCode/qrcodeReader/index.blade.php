@@ -9,6 +9,6 @@
 <div id="app">
     <Plat></Plat>
 </div>
-<script src="{{ asset('barCodeWebCam/qrcodeReader.js') }}"></script>
+<script src="{{ asset('js/clientMain/barCodeWebCam/qrcodeReader.js') }}"></script>
 </body>
 </html>

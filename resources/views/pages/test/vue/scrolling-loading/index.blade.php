@@ -3,7 +3,7 @@
 @section('title','Test - Vue Scrolling')
 
 @push('vueApp')
-<script src="{{ asset('js/test/vue/scrolling-loading.js' ) }}"></script>
+<script src="{{ asset('js/clientMain/test/vue/scrolling-loading.js' ) }}"></script>
 @endpush
 
 @section('content')

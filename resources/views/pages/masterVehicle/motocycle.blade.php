@@ -3,7 +3,7 @@
 @section('title','Master Vehicle - Motocycle')
 
 @push('vueApp')
-    <script src="{{ asset('js/masterVehicle/vehicle.js') }}"></script>
+    <script src="{{ asset('js/clientMain//masterVehicle/vehicle.js') }}"></script>
 @endpush
 
 @section('content')

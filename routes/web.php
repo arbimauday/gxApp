@@ -178,3 +178,15 @@ Route::get('/employee/medicalRecords',function(){
 /********* START TEST ********/
 include('devRoutes/test/vue/scollingLoading.php');
 /********* END TEST ********/
+
+/********* START TEST ********/
+Route::get('/email',function (){
+    return view('pages/email/index');
+});
+
+Route::get('/email/viewpage',function(){
+    return view('pages/email/view');
+});
+
+Route::get('/email/viewcon','Email\Pop3list@view');
+/********* END TEST ********/
